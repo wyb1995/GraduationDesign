@@ -1,17 +1,64 @@
 .header {
     margin-top: 0;
-    height: 80px;
-    background-color: #ece8cf;
+    height: 150px;
+    background-color: #fff;
+    padding: 0px;
 }
 
-.banana {
-    margin-left: 80px;
-    width: 80px;
-    height: 80px;
+.header-left {
+    margin-left: 11%;
+    font-family: 微软雅黑;
+    padding-top: 30px;
 }
 
-.runner {
-    width: 100px;
-    height: 80px;
-    overflow: hidden;
+.header-right {
+    font-family: 微软雅黑;
+    padding-top: 30px;
+}
+
+.span-1 {
+    font-size: 32px;
+    white-space: nowrap;
+    font-weight: bold;
+    color: rgb(30, 80, 174);
+}
+
+.span-2 {
+    font-size: 32px;
+    white-space: nowrap;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.header-p {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    text-align: right;
+    margin: 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+.span-3 {
+    font-size: 16px;
+    color: rgb(8, 61, 151);
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.span-4 {
+    color: rgb(85, 85, 85);
+    font-family: "segoe ui", tahoma, helvetica, sans-serif;
+    font-size: 13px;
+    text-align: right;
+    display: block;
+}
+
+.li {
+    width: 110px;
+    margin: 0 25px;
+    text-align: center;
 }

@@ -22,6 +22,10 @@ module.exports = {
         },
       },
       {
+        test: /\.MD$/,
+        loader: 'file-loader'
+      },
+      {
         test: /\.css$/,
         loader: 'style!css' // note style is before css
       }, {
