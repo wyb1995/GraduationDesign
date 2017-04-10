@@ -3,6 +3,7 @@ import Header from './header.jsx';
 import CaroudelFigure from './caroudelFigure.jsx';
 require('../css/home.css');
 let homeFile = require('../../file/home.js');
+import Footer from './footer.jsx';
 let marked = require('marked');
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -45,6 +46,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     )
   }
