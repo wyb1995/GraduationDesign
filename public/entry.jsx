@@ -1,5 +1,6 @@
 import {Router, Route, IndexRedirect, hashHistory} from 'react-router';
 import Home from './jsx/home.jsx';
+import ResearchDirections from './jsx/researchDirections.jsx';
 import App from './jsx/app.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -10,6 +11,7 @@ const route = <Router history={hashHistory}>
   <Route path="/" component={App}>
     <IndexRedirect to='/home'/>
     <Route path='/home' component={Home}/>
+    <Route path='/researchDirections' component={ResearchDirections}/>
   </Route>
 </Router>;
 
