@@ -33,7 +33,7 @@ class Header extends React.Component {
                 <li className="active li"><a href="#">首页</a></li>
                 <li className="li"><Link to="/researchDirections">研究方向</Link></li>
                 <li className="li"><Link to="/teamMembers">团队成员</Link></li>
-                <li className="li"><Link to="#">科研成果</Link></li>
+                <li className="li"><Link to="/researchProjects">科研项目</Link></li>
                 <li className="li"><Link to="#">论文管理</Link></li>
                 <li className="li"><Link to="#">团队著作</Link></li>
                 <li className="li"><Link to="#">产品原型</Link></li>
