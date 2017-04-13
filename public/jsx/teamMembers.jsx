@@ -22,7 +22,7 @@ class TeamMembers extends React.Component {
       let reg = /<embed (.*)><\/embed>/g;
       let homeFileArray = teamMembers.split(reg);
       let markedDescArray = homeFileArray.map(des => (marked(des)));
-      return {__html: `${markedDescArray[0]} ${markedDescArray[2]}`};
+      return {__html: `${markedDescArray[0]}`};
     }
     return(
       <div>
