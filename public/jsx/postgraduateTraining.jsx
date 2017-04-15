@@ -25,7 +25,7 @@ class PostgraduateTraining extends React.Component {
       return {__html: `${markedDescArray[0]}`};
     }
 
-    return(
+    return (
       <div>
         <Header/>
         <CaroudelFigure/>
