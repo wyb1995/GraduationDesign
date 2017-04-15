@@ -12,9 +12,9 @@ class Footer extends React.Component {
             <li className="li"><Link to="/researchDirections">研究方向</Link></li>
             <li className="li"><Link to="/teamMembers">团队成员</Link></li>
             <li className="li"><Link to="/researchProjects">科研项目</Link></li>
-            <li className="li"><Link to="#">论文管理</Link></li>
-            <li className="li"><Link to="#">团队著作</Link></li>
-            <li className="li"><Link to="#">产品原型</Link></li>
+            <li className="li"><Link to="/postgraduateTraining">研究生培养</Link></li>
+            <li className="li"><Link to="/notice">公告＆通知</Link></li>
+            <li className="li"><Link to="/productPrototype">产品原型</Link></li>
           </ul>
         </div>
         <div className="footer-1">
