@@ -7,7 +7,7 @@
 
 .row {
     margin-left: -15px;
-    margin-right: 0px;
+    margin-right: 0px !important;
 }
 
 .header-left {

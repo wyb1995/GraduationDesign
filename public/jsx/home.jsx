@@ -21,7 +21,7 @@ class Home extends React.Component {
 
     function content() {
       let reg = /<embed (.*)><\/embed>/g;
-      let homeFileArray = homeFile.description.split(reg);
+      let homeFileArray = homeFile.split(reg);
       let markedDescArray = homeFileArray.map(des => (marked(des)));
       return {__html: `${markedDescArray[0]}`};
     }
