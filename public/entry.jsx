@@ -5,6 +5,7 @@ import TeamMembers from './jsx/teamMembers.jsx';
 import ResearchProjects from './jsx/researchProjects.jsx';
 import ProductPrototype from './jsx/productPrototype.jsx';
 import PostgraduateTraining from './jsx/postgraduateTraining.jsx';
+import Login from './jsx/login.jsx';
 import Notice from './jsx/notice.jsx';
 import App from './jsx/app.jsx';
 import React from 'react';
@@ -16,6 +17,7 @@ const route = <Router history={hashHistory}>
   <Route path="/" component={App}>
     <IndexRedirect to='/home'/>
     <Route path='/home' component={Home}/>
+    <Route path='/login' component={Login}/>
     <Route path='/researchDirections' component={ResearchDirections}/>
     <Route path='/teamMembers' component={TeamMembers}/>
     <Route path='/researchProjects' component={ResearchProjects}/>

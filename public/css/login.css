@@ -1,0 +1,33 @@
+body {
+    margin-top: 0;
+}
+
+.loginForm {
+    margin: 0 auto;
+}
+
+.login {
+    border-radius: 10px;
+    border: #c0c0c0 solid 3px;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 50%;
+}
+
+.distance {
+    margin-bottom: 30px;
+}
+
+.login_title {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.button-center {
+    text-align: center;
+}
+
+.form-control {
+    width: 90% !important;
+}
