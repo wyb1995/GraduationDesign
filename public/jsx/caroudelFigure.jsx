@@ -1,4 +1,5 @@
 import React from 'react';
+require('../css/carousel.css');
 
 class CaroudelFigure extends React.Component {
   render() {
