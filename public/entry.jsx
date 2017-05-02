@@ -7,6 +7,8 @@ import ProductPrototype from './jsx/productPrototype.jsx';
 import PostgraduateTraining from './jsx/postgraduateTraining.jsx';
 import Login from './jsx/login.jsx';
 import Notice from './jsx/notice.jsx';
+import Admin from './jsx/admin.jsx';
+import ResearchDirectionsEditor from './jsx/researchDirections-editor.jsx';
 import App from './jsx/app.jsx';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -16,6 +18,8 @@ require("bootstrap-webpack");
 const route = <Router history={hashHistory}>
   <Route path="/" component={App}>
     <IndexRedirect to='/home'/>
+    <Route path='/admin' component={Admin}/>
+    <Route path='/researchDirections-editor' component={ResearchDirectionsEditor}/>
     <Route path='/home' component={Home}/>
     <Route path='/login' component={Login}/>
     <Route path='/researchDirections' component={ResearchDirections}/>
