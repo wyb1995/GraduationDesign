@@ -26,7 +26,7 @@ class Login extends React.Component {
   _onSubmit(event) {
     event.preventDefault();
     if(this.state.userId === 'admin' && this.state.password === 'password') {
-      location.href = '/#/home';
+      location.href = '/#/home-editor';
     }else {
       alert('用户名密码错误');
     }
