@@ -1,10 +1,10 @@
 import React from 'react';
 import Admin from './admin.jsx';
-let researchDirections = require('../../file/researchDirections');
+let researchDirections = require('../../file/home');
 import superagent from 'superagent';
 require('../css/editor.css');
 
-class ResearchDirectionsEditor extends React.Component {
+class HomeEditor extends React.Component {
 
   componentDidMount() {
     this.paperName.value = researchDirections;
@@ -12,7 +12,7 @@ class ResearchDirectionsEditor extends React.Component {
 
   submit() {
     let content = this.paperName.value;
-    superagent.post('/api/researchDirections')
+    superagent.post('/api/home')
       .send({content})
       .end((err, res)=> {
         alert('saved!');
@@ -36,4 +36,4 @@ class ResearchDirectionsEditor extends React.Component {
   }
 }
 
-export default ResearchDirectionsEditor;
+export default HomeEditor;
