@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe108e0c-8fe7-4e2f-997b-62f49785a43c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/api/book-detail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/api/book.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/api/current.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/api/messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/api/renews.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/api/sessions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/api/users.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mongodb/db.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/mongodb/schema.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/xiyou/detail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/xiyou/info.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/xiyou/login.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/xiyou/renew.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/services/xiyou/rent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tool/check-login.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/api/index.js" afterPath="$PROJECT_DIR$/app/api/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/server.js" afterPath="$PROJECT_DIR$/app/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,11 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -144,7 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/css/researchProjects.css" />
         <option value="$PROJECT_DIR$/public/jsx/researchProjects.jsx" />
         <option value="$PROJECT_DIR$/public/jsx/researchDirections.jsx" />
         <option value="$PROJECT_DIR$/public/css/productPrototype.css" />
@@ -195,6 +188,7 @@
         <option value="$PROJECT_DIR$/app/api/current.js" />
         <option value="$PROJECT_DIR$/app/api/index.js" />
         <option value="$PROJECT_DIR$/app/server.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -404,12 +398,12 @@
       <workItem from="1493707495107" duration="9356000" />
       <workItem from="1493716879408" duration="67000" />
       <workItem from="1493968035782" duration="91000" />
-      <workItem from="1494481230541" duration="209000" />
+      <workItem from="1494481230541" duration="806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89915000" />
+    <option name="totallyTimeSpent" value="90512000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
@@ -708,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -845,6 +831,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="53" column="11" lean-forward="false" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
           <folding />
         </state>
       </provider>
