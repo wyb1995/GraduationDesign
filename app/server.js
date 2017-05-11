@@ -9,6 +9,7 @@ import bodyParse from 'body-parser';
 const cookieParser = require('cookie-parser');
 const app = express();
 const compiler = webpack(webpackConfig);
+var port = process.env.PORT || 3000;
 app.use(bodyParse.json());
 app.use(bodyParse.urlencoded({extended: true}));
 app.use(cookieParser());
@@ -28,7 +29,7 @@ app.use(webpackHotMiddleware(compiler, {
 app.use(express.static('./public'));
 app.use('/api', apiRouter);
 if (require.main === module) {
-  app.listen($PORT, function () {
+  app.listen(port, function () {
     console.log('Listening on 3000');
   });
 }
