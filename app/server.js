@@ -7,7 +7,6 @@ import express from 'express';
 import apiRouter from './api/index.js';
 import bodyParse from 'body-parser';
 const cookieParser = require('cookie-parser');
-import db from './mongodb/db';
 const app = express();
 const compiler = webpack(webpackConfig);
 app.use(bodyParse.json());
@@ -30,10 +29,7 @@ app.use(express.static('./public'));
 app.use('/api', apiRouter);
 if (require.main === module) {
   app.listen(3000, function () {
-    db.connect((err) => {
-      if (err) return console.error('db connection failed');
-      console.log('Listening on 3000');
-    });
+    console.log('Listening on 3000');
   });
 }
 
