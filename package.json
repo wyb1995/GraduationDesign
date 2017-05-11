@@ -9,7 +9,7 @@
     "test": "jasmine",
     "test-all": "JASMINE_CONFIG_PATH=spec/support/jasmine-all.json jasmine || exit 0"
   },
-  
+
   "keywords": [],
   "author": "",
   "license": "ISC",

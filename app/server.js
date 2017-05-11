@@ -28,7 +28,7 @@ app.use(webpackHotMiddleware(compiler, {
 app.use(express.static('./public'));
 app.use('/api', apiRouter);
 if (require.main === module) {
-  app.listen(3000, function () {
+  app.listen($PORT, function () {
     console.log('Listening on 3000');
   });
 }
