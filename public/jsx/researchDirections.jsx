@@ -31,14 +31,14 @@ class ResearchDirections extends React.Component {
         <div className="description">
           <div className="content-1">
             <p className="home-p">
-              <span className="span-5">实验室研究内容与项目简介</span>
+              <span className="span-5">实验室论文著作</span>
             </p>
             <p>
               <span className="span-6">Brief introduction of laboratory research content and project</span>
             </p>
             <div className="tab">
               <div ref="container" className="content">
-                <div id="introduction" dangerouslySetInnerHTML={content()}>
+                <div id="introduction-1" dangerouslySetInnerHTML={content()}>
                 </div>
               </div>
             </div>

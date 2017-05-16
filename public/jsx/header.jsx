@@ -31,7 +31,7 @@ class Header extends React.Component {
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
               <ul className="nav navbar-nav">
                 <li className="active li"><a href="#">首页</a></li>
-                <li className="li"><Link to="/researchDirections">研究方向</Link></li>
+                <li className="li"><Link to="/researchDirections">论文著作</Link></li>
                 <li className="li"><Link to="/teamMembers">团队成员</Link></li>
                 <li className="li"><Link to="/researchProjects">科研项目</Link></li>
                 <li className="li"><Link to="/postgraduateTraining">研究生培养</Link></li>
