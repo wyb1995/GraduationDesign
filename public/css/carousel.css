@@ -2,3 +2,9 @@
     line-heigh: 1;
     width: 100%;
 }
+
+.carousel-inner > .item > img {
+    display: block;
+    max-width: 100%;
+    height: 200px !important;
+}
