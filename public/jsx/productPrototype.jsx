@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './header.jsx';
 import CaroudelFigure from './caroudelFigure.jsx';
 import Footer from './footer.jsx';
+require('../css/postgraduateTraining.css');
 let productPrototype = require('../../file/productPrototype');
 let marked = require('marked');
 marked.setOptions({
@@ -38,7 +39,7 @@ class ProductPrototype extends React.Component {
             </p>
             <div className="tab">
               <div ref="container" className="content">
-                <div id="introduction" dangerouslySetInnerHTML={content()}>
+                <div id="introduction-1" dangerouslySetInnerHTML={content()}>
                 </div>
               </div>
             </div>
